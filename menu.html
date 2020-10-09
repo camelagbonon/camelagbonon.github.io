@@ -11,6 +11,15 @@
   <link rel="stylesheet" href="css/styles.css">
   <script src="js/script.js"></script>
 </head>
+<script src="js/jquery.includeHTML.js"></script>
+<script src="jquery.includeHTML.min.js"></script>
+<script type="text/javascript">
+$(function(){
+    $('footer').load('footer.html');
+    $('header').load('menu.html');
+});
+</script>
+
     <body>
 <nav class="navbar navbar-expand-lg navbar-black bg-black">
   <a class="navbar-brand" href="#">Mon cv</a>
