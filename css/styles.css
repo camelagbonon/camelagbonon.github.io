@@ -1,5 +1,6 @@
 body{
   font-family: 'Lato', sans-serif;
+  padding: 1px 100px 1px 100px;
 }
 nav
 {
@@ -10,7 +11,12 @@ h1,h2,h3,h4,h5,h6
 {
   font-weight: bold;
 }
-
+h2
+{
+  color: #d99d2c;
+  border-bottom: 1px solid;
+  padding-bottom: 15px;
+}
 section h1
 {
   color: #fff;
@@ -30,9 +36,6 @@ img
   border-radius : 75px;
 }
 
-section
-{
-}
 #about
 {
   padding-top: 100px;
@@ -50,6 +53,11 @@ section
   margin: 0 auto;
   padding: 30px 0 30px 0;
 }
+#firstpart
+{
+  padding-bottom: 500px;
+  margin-bottom: 500px;
+}
 .button1
 {
   font-weight: bold;
@@ -59,19 +67,32 @@ section
 }
 .etude-font
 {
-  background-image: url("../image/fonts.jpeg");
   background-color: #cccccc;
   height: 500px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+#competencehtml
+{
+  margin-top: 100px;
+}
 .liste
 {
-  padding: 50px 50px;
-  margin-left: 100px;
+  padding-top: 150px;
+  padding-bottom: 150px;
   text-transform: capitalize;
   font-size: 25px;
   font-weight: bold;
   font-family: 'Lato', sans-serif;
+}
+#moncv-first
+{
+  color: #d99d2c;
+  padding-right: 100px;
+}
+
+ul
+{
+  float: right;
 }
