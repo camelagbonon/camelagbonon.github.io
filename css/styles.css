@@ -26,7 +26,7 @@ section h3
 {
   color: #000;
 }
-img
+.etude-font img
 {
   width : 200px;
   height : 200px;
@@ -35,7 +35,10 @@ img
   -webkit-border-radius : 75px;
   border-radius : 75px;
 }
-
+#menu_liste
+{
+  float: left;
+}
 #about
 {
   padding-top: 100px;
@@ -60,6 +63,8 @@ img
 }
 .button1
 {
+  background-color: red;
+
   font-weight: bold;
   text-transform: uppercase;
   color: white;
@@ -91,8 +96,60 @@ img
   color: #d99d2c;
   padding-right: 100px;
 }
-
-ul
+.icon_facebook
 {
-  float: right;
+  background: $blue-color;
+  text-indent: -999em;
+  width: 80px;
+  height: 90px;
+  /*border-radius: 5px;*/
+  position: relative;
+  /*border: 15px solid $blue-color;*/
+/*  border-bottom: 0;*/
+/*  display: inline-block;*/
+  margin-right: 20px;
+}
+#id_gmail
+{
+  width: 80px;
+  height: 110px;
+  position: relative;
+  margin-right: 20px;
+  margin-left: 20px;
+  border-radius: 5px;
+}
+#id_tel
+{
+  width: 80px;
+  height: 90px;
+  position: relative;
+  margin-top: 5px;
+  margin-right: 20px;
+  margin-left: 20px;
+  border-radius: 5px;
+}
+#id_whp
+{
+  width: 80px;
+  height: 90px;
+  position: relative;
+  margin-top: 5px;
+  margin-right: 20px;
+  margin-left: 20px;
+  border-radius: 5px;
+}
+#id_ind
+{
+  width: 80px;
+  height: 90px;
+  position: relative;
+  margin-top: 5px;
+  margin-right: 20px;
+  margin-left: 20px;
+  border-radius: 5px;
+}
+.les_icones
+{
+  margin-top: 60px;
+  margin-bottom: 45px;
 }
